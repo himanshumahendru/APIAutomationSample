@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Sample Framework" >
+
+<listeners>
+<listener class-name = "listeners.ExtentListeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Create Customer Test">
+    <classes>
+      <class name="testcases.CreateCustomerTest"/>
+    </classes>
+  </test> <!-- Create Customer Test -->
+  
+  
+  <test thread-count="5" name="Delete Customer Test">
+    <classes>
+      <class name="testcases.DeleteCustomerTest"/>
+    </classes>
+  </test> <!-- Create Customer Test -->
+  
+ 
+  
+  
+</suite> <!-- API Automation Sample Framework -->

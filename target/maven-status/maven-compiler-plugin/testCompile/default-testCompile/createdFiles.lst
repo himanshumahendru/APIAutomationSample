@@ -1,0 +1,10 @@
+APIEndpoints\CreateCustomer.class
+setup\BaseTest.class
+utilities\ExcelReader.class
+testcases\DeleteCustomerTest.class
+APIEndpoints\DeleteCustomer.class
+listeners\ExtentManager.class
+utilities\DataUtil.class
+testcases\CreateCustomerTest.class
+listeners\ExtentListeners.class
+utilities\TestUtil.class

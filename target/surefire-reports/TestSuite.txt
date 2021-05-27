@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.236 s <<< FAILURE! - in TestSuite
+validateCreateCustomerAPIWithInValidSecretKey(testcases.CreateCustomerTest)  Time elapsed: 1.966 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at testcases.CreateCustomerTest.validateCreateCustomerAPIWithInValidSecretKey(CreateCustomerTest.java:39)
+
+deleteCustomer(testcases.DeleteCustomerTest)  Time elapsed: 1.35 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:36)
+
+deleteCustomer(testcases.DeleteCustomerTest)  Time elapsed: 1.35 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:36)
+
+deleteCustomer(testcases.DeleteCustomerTest)  Time elapsed: 1.35 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:36)
+
+deleteCustomer(testcases.DeleteCustomerTest)  Time elapsed: 1.394 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:36)
+
