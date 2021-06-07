@@ -105,23 +105,18 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 		
 		  
-		try {
-			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/RestAssuredSampleProject/HTML_20Report/"+fileName;
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		MonitoringMail mail = new MonitoringMail();
-		try {
-			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
-		} catch (AddressException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		/*
+		 * try { messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+
+		 * ":8080/job/RestAssuredSampleProject/HTML_20Report/"+fileName; } catch
+		 * (UnknownHostException e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 * 
+		 * MonitoringMail mail = new MonitoringMail(); try {
+		 * mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to,
+		 * TestConfig.subject, messageBody); } catch (AddressException e) { // TODO
+		 * Auto-generated catch block e.printStackTrace(); } catch (MessagingException
+		 * e) { // TODO Auto-generated catch block e.printStackTrace(); }
+		 */
 		 
 
 	}

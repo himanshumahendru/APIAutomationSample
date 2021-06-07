@@ -36,10 +36,10 @@ public class BaseTest {
 		}
 		
 		//config.getProperty("baseURI");
-		//RestAssured.baseURI= config.getProperty("baseURI");
-		RestAssured.baseURI = "https://api.stripe.com";
+		RestAssured.baseURI= config.getProperty("baseURI");
+		//RestAssured.baseURI = "https://api.stripe.com";
 		
-		RestAssured.basePath = config.getProperty("basePath");
+		//RestAssured.basePath = config.getProperty("basePath");
 		
 		
 	}

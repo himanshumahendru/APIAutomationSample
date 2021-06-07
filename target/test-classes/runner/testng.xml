@@ -6,16 +6,16 @@
 <listener class-name = "listeners.ExtentListeners"></listener>
 </listeners>
 
-  <test thread-count="5" name="Create Customer Test">
+  <test thread-count="5" name="Create Order Test">
     <classes>
-      <class name="testcases.CreateCustomerTest"/>
+      <class name="test.paypal.CreateOrderTest"/>
     </classes>
   </test> <!-- Create Customer Test -->
   
   
-  <test thread-count="5" name="Delete Customer Test">
+  <test thread-count="5" name="Get Order Test">
     <classes>
-      <class name="testcases.DeleteCustomerTest"/>
+      <class name="test.paypal.GetOrderTest"/>
     </classes>
   </test> <!-- Create Customer Test -->
   

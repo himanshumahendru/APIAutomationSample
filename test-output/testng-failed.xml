@@ -4,26 +4,15 @@
   <listeners>
     <listener class-name="listeners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Create Customer Test(failed)">
+  <test thread-count="5" name="Get Order Test(failed)">
     <classes>
-      <class name="testcases.CreateCustomerTest">
+      <class name="test.paypal.GetOrderTest">
         <methods>
-          <include name="validateCreateCustomerAPIWithInValidSecretKey" invocation-numbers="0"/>
+          <include name="getOrderTest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.CreateCustomerTest -->
+      </class> <!-- test.paypal.GetOrderTest -->
     </classes>
-  </test> <!-- Create Customer Test(failed) -->
-  <test thread-count="5" name="Delete Customer Test(failed)">
-    <classes>
-      <class name="testcases.DeleteCustomerTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="deleteCustomer" invocation-numbers="2"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testcases.DeleteCustomerTest -->
-    </classes>
-  </test> <!-- Delete Customer Test(failed) -->
+  </test> <!-- Get Order Test(failed) -->
 </suite> <!-- Failed suite [API Automation Sample Framework] -->
